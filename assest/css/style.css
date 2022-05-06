@@ -65,7 +65,7 @@
 #slider{
     margin-top: 46px;
     padding-top: 50%;
-    background: url(./assest/img/Slider/Anhnenslider1.png) top center / cover no-repeat;
+    background: url(../assest/img/Slider/Anhnenslider1.png) top center / cover no-repeat;
 
 
 }
@@ -78,7 +78,7 @@
 #content .best-seller{
     position: relative;
     padding-bottom: 60%;
-    background: url(./assest/img/Content/mainconttent/bestseller.png) top center / cover no-repeat;
+    background: url(../assest/img/Content/mainconttent/bestseller.png) top center / cover no-repeat;
 }
 #content .button{
     background-color: #000;
@@ -111,7 +111,7 @@
     position: relative;
     margin-top: 0px;
     padding-top: 60%;
-    background: url(./assest/img/Content/mainconttent/other.png) top center / cover no-repeat;
+    background: url(../assest/img/Content/mainconttent/other.png) top center / cover no-repeat;
     
 }
 
