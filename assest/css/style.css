@@ -1,0 +1,370 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+ html{
+     font-family: Arial, Helvetica, sans-serif ;
+ }
+
+.clear{
+    clear: both;
+}
+#header{
+    height: 46px;
+    background-color: black;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+   
+}
+#nav{
+    display: inline-block;
+}
+#nav li{
+    display: inline-block;
+    
+}
+#nav li a{
+    color: aliceblue;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0px 24px;
+    /* thêm inline block vào để cho nó ăn theo thằng line heigh
+    vì vốn dĩ thẻ a nó có thuộc tính inline thôi mà inline thì 
+    không thể xét được chiều cao và chiều rộng nên nó không ăn 
+    theo được line height  */
+    display: inline-block;
+    text-transform:uppercase ;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+#nav li:hover a{
+    color: #000;
+    background-color: #ccc;
+}
+#header .serch-btn{
+    float: right;
+    cursor: pointer;
+    
+}
+#header .serch-btn:hover{
+    background-color: #f44336;
+}
+ #header .search-icon{
+     color: #fff;
+     font-size: 20px;
+     line-height: 46px;
+     padding: 0px 21px;
+     
+ }
+#slider{
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(/assest/img/Slider/Anhnenslider1.png) top center / cover no-repeat;
+
+
+}
+
+#content{
+    background-color: #ccc ;
+    z-index: 1;
+}
+
+#content .best-seller{
+    position: relative;
+    padding-bottom: 60%;
+    background: url(/assest/img/Content/mainconttent/bestseller.png) top center / cover no-repeat;
+}
+#content .button{
+    background-color: #000;
+    display: inline-block;
+    position: absolute;
+    bottom: 23%;
+    right: 33%;
+    font-size: 130%;
+    
+}
+#content .button a{
+    width: 80px;
+    height: 40px; ;
+    background-color: #000;
+    text-decoration: none;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    
+}
+#content .button a:hover, #content .button:hover{
+    background-color: #ccc;
+    color: #000;
+   
+}
+.other{
+    position: relative;
+    margin-top: 0px;
+    padding-top: 60%;
+    background: url(/assest/img/Content/mainconttent/other.png) top center / cover no-repeat;
+    
+}
+
+.food-lists{
+    margin-top: 32px;
+    position: absolute;
+    top: 180px;
+    width: 800px;
+    height: 477px;
+    right: 8%;
+    overflow: hidden;
+ 
+}
+.food-item{
+    float: left;
+    width: 33.333%;
+    padding: 0 8px;
+    
+}
+.food-img{
+    width: 100%;
+    border-radius: 20px;
+}
+.food-heading{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+.food-buy{
+    font-size: 12px;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 26px;
+    margin-left: 75px;
+}
+.hihihi {
+    position: relative;
+    top: 550px;
+    right: -68%;
+}
+.food-buy:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+.content-section{
+    background-color: #fff;
+    width: 100%;
+    padding-bottom: 200px;
+
+   
+}
+.section-heading {
+    
+    background-color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.section-sub-heading{
+    display: block;
+    background-color: #fff;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    width: 100%;
+
+}
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-half{
+    width: 50%;
+}
+.row{
+    line-height: 1.6;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: -8px;
+}
+.col-full{
+    width: 100%;
+}
+.row1{
+    margin-left: -0px;
+    margin-right: 0px; }
+
+
+.contact-form{
+    font-size: 15px;
+}
+.form-control{
+    padding: 8px;
+}
+.form-submit-btn {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 16px;
+}
+.form-submit-btn:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+#footer{
+    background-color: #F5F5EF;
+    width: 100%;
+    height: 445px;
+   
+}
+
+.illustrate{
+    height: 100%;
+    border-radius: 10px;
+    float: left;
+    background-color: #F5F5EF
+}
+.texting-end{
+    display: inline-block;
+    margin-left: 400px;
+    background-color: #F5F5EF;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    font-weight: lighter;
+}
+.video-ending{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.quote-ending-1{
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    margin-left: 131px;
+    font-family: cursive;
+    font-style: oblique;
+    margin-top: 60px;
+}
+.quote-ending-2{
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    margin-left: 131px;
+    font-family: cursive;
+    font-style: oblique;
+}
+.cupcake{
+    width: 10%;
+    display: inline-block;
+}
+.cupcake .cupcake1{
+    width: 100%;
+    margin-left: 750px;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4) ;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+.modal.open {
+    display: flex;
+}
+.modal-container{
+    background: #fff;
+    width: 900px;
+    min-height: 200px;
+    position: relative;
+    animation: modalFadeIn ease 2s;
+}
+.modal-header{
+    background-color: #000 ;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+
+}
+.modal-heading-icon{
+    margin-right: 16px;
+}
+.modal-close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.modal-body{
+    padding:16px;}
+.modal-label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.modal-input{
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    margin-bottom: 24px;
+ }
+ #buy-ticket {
+    background: #000;
+    border: none;
+    color: #fff;
+    width: 100%;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 13px;
+    cursor: pointer; }
+#buy-ticket:hover{opacity: 0.9;}
+.modal-footer{
+    padding: 16px;
+    text-align: right;
+}
+.modal-footerat {
+    color: #000;
+}
+@keyframes modalFadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
